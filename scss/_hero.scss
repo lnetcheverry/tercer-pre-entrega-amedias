@@ -1,0 +1,32 @@
+/*hero*/
+
+
+.hero {
+    background-color: $color-fondo;
+    width: 100%;
+    height: calc(100vh - 10rem);
+    position: relative;
+    display: inline-block;
+
+    h1 {
+        display: inline-flex;
+        color: $color-fuentes-secundario;
+        padding: 4rem;
+        font-size: 5.5rem;
+        font-weight: 500;
+
+    }
+
+    h2 {
+        margin-bottom: 5px;
+        color: $color-fuentes-secundario;
+        font-size: 3.8rem;
+        font-weight: 100;
+    }
+
+    p {
+        color:$color-fuentes-secundario;
+        margin-bottom: 30px;
+        font-size: 20px;
+    }
+}
